@@ -1,4 +1,4 @@
-from BOutlookCalendar import CalendarUtils
+from BOutlookCalendar import OutlookCalendarUtils
 
-cu = CalendarUtils(7)
+cu = OutlookCalendarUtils(3)
 print(str(cu.getCalendarItems()))
